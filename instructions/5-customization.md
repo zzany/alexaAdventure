@@ -35,9 +35,9 @@ You should have a working copy of the skill at this point. Customize it with new
 
     6. Export the updated game with **Publish To File** from the menu obtained by clicking on the project name in the bottom left-hand corner.
 
-    7.  Copy the contents of your file to your Lambda function.  This should be as simple as copying the text, and pasting it into the code box for your Lambda.
-
-        <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/fact/5-1-5-lambda-code-box._TTH_.png" />
+    7.  Copy this file into your lambda/custom directory (make sure you replace the old file). You should then delete and reupload the zip directory to Lambda.
+    
+    8.  If you added a new room or word, be sure to add this to the "directions" list under the Interaction Model within the Alexa Developer Console.
 
 2.  **Different wording for an action.** You may find that you have a link that does not get triggered when you ask it.
     *  In Alexa Developer Console add to the interaction model. Consider adding variations on the **Sample Utterances**.
