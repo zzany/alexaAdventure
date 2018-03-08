@@ -51,6 +51,10 @@ In the [first step of this guide](./1-voice-user-interface.md), we built the Voi
 
 8.  Our gamebook skill reads in data from Twine's html export. The data is in XML format and we have converted it to JSON with the node library xml2js. All libraries and dependencies must be uploaded for our Lambda code to access.
   * Under **code entry type** select **Upload a .ZIP file**.
+  * In your terminal, navigate to this github directory.
+  * Navigate to **lambda/custom**.
+  * Type "**rm gamebook.zip**.
+  * Type "**zip -r gamebook.zip \***"
   * **Upload** the zip file **lambda/custom/gamebook.zip**.
   * Click **Save**.
   * Under **code entry type** select **Edit code inline**. You should see our code.
