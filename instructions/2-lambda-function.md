@@ -57,7 +57,7 @@ In the [first step of this guide](./1-voice-user-interface.md), we built the Voi
   * Type "**zip -r gamebook.zip \***"
   * **Upload** the zip file **lambda/custom/gamebook.zip**.
   * Click **Save**.
-  * Under **code entry type** select **Edit code inline**. You should see our code.
+  * You should see an error message that the code is too large to **Edit code inline**. You will have to edit the file on your computer or on GitHub then recreate and reupload gamebook.zip.
 
 9.  Alexa expects a response from backend processing within 8 seconds, so after receiving and sending the messages we will be left with around 7 seconds. Remember to keep response times short-and-snappy when designing Skills. If your skill becomes popular you may need to think about how to access data from very large database tables, cope with timeouts when calling external services, cache data, and many other things. Lambda itself is architected to scale well. Scroll down and in the **Basic Settings** increase the timeout to **7** seconds.
 
